@@ -1,0 +1,155 @@
+<!DocType Html>
+<lang "en-US">
+
+<Head>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<link rel="stylesheet"  href="css/style.css">
+<TITLE>Trivia</TITLE>
+</Head>
+
+<Body>
+
+<div class="jumbotron" style="text-align: center" id="Category">Decor</div>
+
+<!--Checkbox butons-->
+
+</div>
+
+<div form action="TriviaPage.html" method="GET">
+<div class="container" style=" outline:  #87CEFA  dotted thick; >
+	<div class="row CustomRadioButtons">
+
+	<div class="col-lg-4">
+	</div>
+
+    <div class="col-lg-6">
+ <h1>What is the answer</h1>
+    </div>
+
+<div class="col-lg-4">.
+	</div>
+
+
+<div class="form-group">
+<div class="col-lg-6">
+    <input type="radio" name="Option" >
+   <label id="Option1" name="test" for="Option1">Hello</label>
+</div
+</div>
+
+
+<div class="col-lg-4">
+
+	</div>
+
+<div class="form-group">
+<div class="col-lg-6">
+    <input type="radio"  name="Option" id="Option2">
+   <label  for="Option2" id="Option2"> Hello
+    </label>
+</div>
+</div>
+
+
+<div class="col-lg-4">
+	</div>
+
+<div class="form-group">
+<div class="col-lg-6">
+    <input type="radio"  name="Option" id="Option3">
+   <label d="Option3" for="Option3">
+    Hello
+    </label>
+</div>
+</div>
+
+<div class="col-lg-4">
+	</div>
+
+<div class="form-group">
+<div class="col-lg-6">
+    <input type="radio"  name="Option" id="Option4">
+    <label d="Option4" for="Option4">
+    Hello
+    </label>
+</div>
+</div>
+
+<div class="col-lg-4">
+	</div>
+
+<div class="form-group">
+<div class="col-lg-6">
+    <input type="radio"    name="Option" >
+    <label  id="Option5" for="Option5">
+     Hello World
+    </label>
+</div>
+</div>
+
+  <div class="col-lg-6">
+<br/>
+    </div>
+<div class="col-lg-6">
+<br/>
+    </div>
+    <div class="col-lg-4">
+    <br/>
+    </div>
+     <div class="col-lg-6">
+<br/>
+    </div>
+<div class="col-lg-6">
+<br/>
+    </div>
+    <div class="col-lg-4">
+    <br/>
+    </div>
+     <div class="col-lg-6">
+<br/>
+    </div>
+<div class="col-lg-6">
+<br/>
+    </div>
+    <div class="col-lg-4">
+    <br/>
+    </div>
+<div class="form-group">
+<div class="col-lg-6">
+    
+    <BUTTON class="btn btn-lg" id="NextBtn" >Next</BUTTON>  
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(
+function()
+{
+
+ url = window.location.href;
+alert(url);
+var first = JSON.parse(url.split(','))[1].replace(/%20/g," ").replace(/%22/g," ").replace(/%27/g," ");
+alert(first);
+
+});
+</script>
+
+</Body>
+
+</Html>

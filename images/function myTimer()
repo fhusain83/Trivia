@@ -1,0 +1,10 @@
+function myTimer()
+{
+var	myVar;
+myVar=setTimeout(alertFunc,3000);
+}
+
+function alertFunc()
+{
+	
+}

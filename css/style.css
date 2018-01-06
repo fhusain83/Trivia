@@ -1,0 +1,67 @@
+#cat1,#cat12,#cat4,
+#cat8,#cat9,#cat2,
+#cat3,,#cat6,#cat5,
+#cat7,#cat10,#cat11,#cat12
+{
+Height:100px;
+Width:200px;
+
+}
+
+#cols
+{
+width:20%;
+
+}
+
+p{
+font-weight:30;
+
+}
+
+#cat01,
+#cat05,
+#cat02,
+#cat03,
+#cat07,#cat010,#cat06,#cat011
+#cat012,#cat04,#cat08,#cat09
+{
+	Height:100px;
+	Width:200px;
+	img-align:center;
+}
+
+
+
+.Bottom
+{
+height:300px;
+background:#d3d3d3;
+}
+
+.CustomRadioButtons label
+{
+width: 50%;
+border-radius: 3px;
+border:1px solid #D1D3D4;
+font-weight: normal;
+font-size: 20px;
+
+}
+#Category
+{
+font-size: 36px;
+
+}
+
+#NextBtn{
+ margin-left:100px;align-items: center;
+background-color: #1E90FF;
+color:white;}
+
+label,h3{
+	color:#1E90FF	;
+ 
+
+}
+
